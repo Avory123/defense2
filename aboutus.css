@@ -1,0 +1,140 @@
+
+body {
+    background-color: #354c7c;
+    min-height: 150vh;
+}
+
+.navbar {
+    background-color: 	#000000;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    display: inline-flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar h2 {
+    color: white;
+    font-weight: bolder;
+    padding-left: 20px;
+    filter: drop-shadow(0px 0px 12px white);
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 750px;
+}
+
+#top p {
+    float: left;
+    color: white;
+}
+
+.header button {
+    color: black;
+    padding: 20px;
+    filter: drop-shadow(0px 0px 12px white);
+    text-decoration: none;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#navigateButton {
+  cursor: pointer;
+}
+
+.search  input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.search {
+    float: right;
+    box-shadow: 10px black;
+    margin-left: 400px;
+}
+
+.search button {
+  color: black;
+    padding: 20px;
+    filter: drop-shadow(0px 0px 12px white);
+    text-decoration: none;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+position: fixed;
+width: 200px;
+height: 100%;
+background: white;
+padding: 30px 0;
+}
+
+.wrapper .sidebar h2 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+padding: 15px;
+border-bottom: 1px solid rgba(0,0,0,0,0.5);
+border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper .sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.wrapper .sidebar ul li:hover {
+    background: #354c7c;
+    border-radius: 10px 0 0 10px;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: white;
+}
+
+.header h1 {
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.paragraph {
+    background-color: white;
+    text-align: center;
+    width: auto;
+    align-items: center;
+}
+
+.paragraph p {
+    text-align: center;
+    margin-left: 250px;
+    width: auto;
+    font-size: 30px;
+    line-height: 1.7;
+}

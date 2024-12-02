@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="attendance.jpg">
+    <h2>Attendance Tracking System</h2>
+
+    <div class="search">
+        <input type="text" placeholder="Search">
+    </div>  
+</div>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Navigate</h2>
+        <ul>
+            <li><a href="updated.html">Home</a></li>
+            <li><a href= "profile.html">Profiles</a></li>
+            <li><a href="aboutus.html"></i>About us</a></li>
+            <li><a href="dashboard.html"></i>Dashboard</a></li>
+            <li><a id="navigateButton"></i>Logout</a></li>
+        </ul>
+    </div>
+</div>
+
+<canvas id="myChart" style="width:100%;max-width:1300px; margin-top: 50px;"></canvas>
+
+<script src="dashboardscript.js"></script>
+</body>
+</html>
